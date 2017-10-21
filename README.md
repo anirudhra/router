@@ -1,2 +1,2 @@
-# openwrt_adblock_lists
-Adblock lists backup for openwrt adblock pakage
+# Config scripts
+Script to install lede/openwrt essentials and restore config files, if preserved during sysupgrade
