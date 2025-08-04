@@ -1,2 +1,3 @@
-# Config scripts
-Script to install lede/openwrt essentials and restore config files, if preserved during sysupgrade
+# Configuration, Scripts for Routers
+
+Repo for storing configuration, scripts etc. for router firmware
