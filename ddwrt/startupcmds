@@ -1,0 +1,12 @@
+## Add under admin > commands > startup
+
+sleep 10
+/opt/etc/init.d/rc.unslung start
+mount --bind /opt/jffs /jffs
+cat <<'EOF' >"/tmp/root/.ashrc"
+source /opt/root/.profile
+EOF
+cat <<'EOF' >"/tmp/root/.vimrc"
+set nu
+set wrap
+EOF
